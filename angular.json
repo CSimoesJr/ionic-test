@@ -31,7 +31,7 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
+            "styles": ["node_modules/@po-ui/style/css/po-theme-default.min.css", "src/theme/variables.scss", "src/global.scss"],
             "scripts": []
           },
           "configurations": {
@@ -111,7 +111,7 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
+            "styles": ["node_modules/@po-ui/style/css/po-theme-default.min.css", "src/theme/variables.scss", "src/global.scss"],
             "scripts": []
           },
           "configurations": {
@@ -136,7 +136,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "bf9dfc06-9bbf-4607-89b8-632b50e30296"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
